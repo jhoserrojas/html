@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/Formulario.css">
+</head>
+<body>
+    <div class="form-bas">
+    <h1>FORMULARIO</h1>
+    <form method="post">
+        <legend><span class="legend-text">Ingrese los siguientes datos</span></legend>
+        <label>Ingrese el tipo de documento</label>
+        <select name="" id="">
+            <option value="">Cédula de Ciudadania</option>
+            <option value="">Tarjeta de identidad</option>
+            <option value="">Registro Civil</option>
+            <option value="">Cédula de Extranjeria</option>
+        </select>
+        <label>Ingrese su número de documento</label>
+        <input type="text" name="" class="nose">
+        <label>Ingrese su nombre</label>
+        <input type="text" class="nose">
+        <label>Ingrese sus apellidos</label>
+        <input type="text" class="nose">
+        <label>Seleccione los días para visualizar las citas disponibles</label>
+        <input type="checkbox" name="fecha-cita" value="20230419">Miercoles, 19 de Abril del 2023 <br>
+        <input type="checkbox" name="fecha-cita" value="20230420">Jueves, 20 de Abril del 2023 <br>
+        <input type="checkbox" name="fecha-cita" value="20230421">Viernes, 21 de Abril del 2023 <br>
+        <input type="checkbox" name="fecha-cita" value="20230422">Sabado, 22 de Abril del 2023 <br>
+        <label>Ingrese su género</label>
+        <input type="radio" name="Genero" value="Masculino">Masculino <br>
+        <input type="radio" name="Genero" value="Femenino">Femenino <br>
+        <input type="radio" name="Genero" value="Otros">Otros <br>
+        <label>Le gustaría realizar una petición especial</label>
+        <textarea name="peticiones" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    </div>
+</body>
+</html>

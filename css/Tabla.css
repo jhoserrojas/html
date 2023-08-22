@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    font-size: 2.2em;
+    display: flex;
+}
+.table-box{
+    display: flex;
+    justify-content: center;
+    border: 0;
+}
+.col-style{
+    width: 150px;
+}
+tr, th, td{
+
+    padding: 10px 15px;
+}
+.col-azul{
+    background-color: rgb(155, 180, 247);
+    color: aliceblue;
+}
+.col-tam{
+    background-color: rgb(103, 103, 255);
+    color: aliceblue;
+}
+.col-osc{
+    background-color: rgb(103, 103, 255);
+    color: aliceblue;
+}
+.col-fam{
+    background-color: rgb(155, 180, 247);
+    color: aliceblue;
+}
+.col-her{
+    background-color: rgb(155, 180, 247);
+    color: aliceblue;
+}
+.col-omg{
+    background-color: rgb(155, 180, 247);
+    color: aliceblue;
+}
+.col-shi{
+    background-color: rgb(155, 180, 247);
+    color: aliceblue;
+}
+.img-check{
+    display: block;
+    margin: 0 auto;
+}
+.col-free{
+    background-color: rgb(212, 212, 212);
+}
+.col-fil{
+    background-color: rgb(212, 212, 212);
+}
+.col-tnt{
+    background-color: rgb(212, 212, 212);
+}
+.col-dis{
+    background-color: rgb(212, 212, 212);
+}
+.col-spa{
+    background-color: rgb(212, 212, 212);
+}

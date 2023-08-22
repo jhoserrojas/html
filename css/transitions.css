@@ -1,0 +1,91 @@
+.box-1{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    background-color: rgb(108, 208, 255);
+    transition: background-color 1150ms;
+}
+.box-1:hover{
+    background-color: rgb(103, 164, 255);
+    cursor: pointer;
+}
+.box-2{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    background-color: rgb(108, 208, 255);
+    transition: all 1500ms;
+}
+.box-2:hover{
+    width: 500px;
+    height: 450px;
+    background-color: rgb(103, 164, 255);
+    cursor: pointer;
+}
+.box-3{
+    height: 300px;
+    width: 550px;
+}
+.box-3-1{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 0;
+    background-color: rgb(108, 208, 255);
+    transition: left 1500ms;
+}
+.box-3:hover > .box-3-1{
+    cursor: pointer;
+    left: 250px;
+}
+.main-box{
+    position: relative;
+    width: 240px;
+    height: 120px;
+    border-radius: 100px;
+    z-index: 20;
+}
+.main-box-off {
+    background-color: rgb(182, 182, 182);
+    transition: background-color 600ms;
+}
+.main-box-on {
+    background-color: rgb(56, 184, 105);
+    transition: background-color 600ms;
+}
+.main-box:hover {
+    cursor: pointer;
+}
+.contenedor-1{
+    position: relative;
+    top: -35px;
+    left: 10px;
+    width: 110px;
+    height: 110px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 55px;
+    transition: all 600ms;
+    z-index: 11;
+}
+.contenedor-2{
+    position: relative;
+    top: -35px;
+    left: 120px;
+    width: 110px;
+    height: 110px;
+    background-color:rgb(228, 236, 225);
+    border-radius: 55px;
+    transition: all 600ms;
+    z-index: 10
+}
+.text-on, .text-off {
+    position: relative;
+    font-size: 2.2em;
+    left: 15px;
+    top: 40px;
+    color: white;
+    z-index: 5;
+}
+.text-off {
+    left: 105px;
+}

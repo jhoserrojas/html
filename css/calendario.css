@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 20px 25px 25px rgba(0, 0, 0, 0.5);
+}
+.container .dias{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .dia{
+    color: rgb(255, 4, 4);
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .numero{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .pasados{
+    color: rgba(108, 108, 108, 0.4);
+}
+.container .numero:hover,
+.container .pasados:hover{
+    border: 2px solid rgba(238, 238, 238, 0.4);
+}
+.container .especial{
+    background: rgb(234, 74, 74);
+}
+.container .date{
+    height: 450px;
+    padding: 25px;
+}
+.container h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 15px 30px;
+}
+.container .image{
+    right: 0;
+    padding: 30px;
+}
+
