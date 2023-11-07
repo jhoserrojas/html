@@ -1,0 +1,58 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+        height: 50px;
+        display: grid;
+        margin-bottom: 15px;
+        background-color: #ffea4a;
+        grid-template: "logo  input-busqueda   menu-hamburguesa    carrito" /
+                        80px   1fr             50px                 50px;
+}
+.logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.input-busqueda {
+    grid-area: input-busqueda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-buscar {
+    height: 35px;
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.menu-hamburguesa{
+    grid-area: menu-hamburguesa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+.carrito {
+    grid-area: carrito;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+}
+.box-producto{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    background-color: blue;
+}
