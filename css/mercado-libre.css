@@ -149,7 +149,7 @@ header {
 }
 
 .img-auto{
-    width: 200px;
+    width:200px;
     padding: 10px;
     height: 130px;
 }
@@ -157,13 +157,13 @@ header {
 .marca{
     display: block;
     font-size: 14px;
-    padding: 3px;
+    padding: 1px;
 }
 
 .precio{
     display: block;
     font-size: 20px;
-    padding: 3px;
+    padding: 2px;
 }
 
 .infExt{

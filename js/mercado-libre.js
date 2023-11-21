@@ -1,4 +1,5 @@
-/*let mainContent = document.getElementById("mainContent");
+
+       /*let mainContent = document.getElementById("mainContent");
 
 let boxProducto = document.createElement("div");
 mainContent.appendChild(boxProducto);
@@ -29,9 +30,9 @@ class Automovil {
 
 let auto1 = new Automovil("Mazda 3", "2.5 Grand Touring",'img/Mazda3.jpg', 98000000, 2021, 33000, 'Usaquén - Bogotá');
 let auto2 = new Automovil("Mazda CX-30", "Grand Touring At", 'img/mazdacx30.png', 111000000, 2022, 14672, 'Engativa - Bogotá');
-let auto3 = new Automovil('Toyota Prado', '3.0 Tx-l', 'img/toyota.png', 275000000, 2020, 72000, 'El Poblado-Medellín-Antioquia');
+let auto3 = new Automovil('Toyota Prado', '3.0 Tx-l', 'img/toyota.png', 275000000, 2020, 72000, 'Poblado-Medellín-Antioquia');
 let auto4 = new Automovil('Mercedes-benz', 'Clase C C200 1.5', 'img/mercedes.png', 211900000, 2022, 9300, 'Medellín-Antioquia');
-let auto5 = new Automovil('Mazda', '2 Sedan', 'images/MAZDA2Sedan.jpg', 48500000, 255, 548545, 'Pitalito-Hila');
+let auto5 = new Automovil('Chevrolet Camaro', '6.2 Ss', 'img/camaro.png', 155000000, 2016, 41087, 'Laureles - Medellín - Antioquia');
 
 
 let autos = [auto1, auto2, auto3, auto4, auto5]
@@ -41,7 +42,7 @@ window.addEventListener("load", function () {
     mostrarProducto('');
 
     inputBusqueda.addEventListener('input', function () {
-        mostrarProducto(inputBusqueda.value);
+       mostrarProducto(inputBusqueda.value);
     });
 });
 
